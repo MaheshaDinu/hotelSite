@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to top left,#e0b71a,#524f4f);
+    color: #000;
+    font-family: 'Serif', sans-serif;
+    
+}
+ 
+.navbar{
+    height: 6vh;
+    background-color: #dfd7bd41 !important;
+    transition: background-color 0.5s ease, height 0.5s ease-in-out;
+    
+    overflow-y: hidden;
+}
+.navbar:hover {
+    background-color: #f1cb31b0 !important;
+    height: fit-content;
+    margin-bottom: 2vh;
+}
+.nav-link{
+    border-radius: 5px;
+    transition: background-color 0.5s ease-in-out;
+    font-weight: 600 !important;
+}
+.nav-link, .footer p {
+    color: #000 !important;
+}
+.nav-link:hover .navbar{
+    background-color: #f1cb31b0 !important;
+    height: 12%;
+}
+.nav-link:hover{
+    background-color: #524f4f;
+    color: #e0b71a !important;
+}
+.navbar-brand, .nav-link {
+    color: #000 !important;
+}
+.navbar-brand > img {
+    height: 8vh !important;
+    width: 10vw;
+}
+.container{
+    top: 10vh;
+}
+/* Restrict the size of the carousel */
+.carousel {
+    max-width: 35vw; /* Set the maximum width */
+    max-height: 26vw; /* Set the maximum height */
+    margin: 0 auto; /* Center the carousel horizontally */
+    background-color: #f0e1aa42;
+  }
+  
+  /* Make sure the images fit within the carousel */
+  .carousel img {
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    width: 100%; /* Make images take the full width of the carousel */
+    height: auto; /* Keep image aspect ratio */
+  }
+  

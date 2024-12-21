@@ -1,0 +1,57 @@
+body {
+    background-color: #1a1a1a;
+    color: #000;
+    font-family: 'Serif', sans-serif;
+    
+}
+main{
+    background-image: url(/Assets/Images/about.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ 
+.navbar{
+    height: 6vh;
+    background-color: #dfd7bd41 !important;
+    transition: background-color 0.5s ease, height 0.5s ease-in-out;
+    
+    overflow-y: hidden;
+}
+.navbar:hover {
+    background-color: #f1cb31b0 !important;
+    height: fit-content;
+    margin-bottom: 2vh;
+}
+.nav-link{
+    border-radius: 5px;
+    transition: background-color 0.5s ease-in-out;
+    font-weight: 600 !important;
+}
+.nav-link, .footer p {
+    color: #000 !important;
+}
+.nav-link:hover .navbar{
+    background-color: #f1cb31b0 !important;
+    height: 12%;
+}
+.nav-link:hover{
+    background-color: #524f4f;
+    color: #e0b71a !important;
+}
+.navbar-brand, .nav-link {
+    color: #000 !important;
+}
+.navbar-brand > img {
+    height: 8vh !important;
+    width: 10vw;
+}
+.container{
+    top: 20vh;
+    margin: 0 10vw !important;
+    background-color: #f0e1aa42;
+}
+.container> h2 , .container>p{
+    text-shadow: 2px 2px 8px #000;
+}
